@@ -1,0 +1,359 @@
+
+.encon {
+	background: #363636 !important;
+	border: none !important;
+	height: 630px !important;
+	box-shadow: inset 0px 0px 10px 5px #1F1F1F !important;
+}
+.quirk {
+	padding: 5px !important;
+	width: 131px;
+	background: #C9C9C9 radial-gradient(55% 100%,#E6E6E6,#CDCDCD,#A6A6A6) !important;
+	border-left: 2px solid #7D7D7D !important;
+	border-top: 2px solid #F3F3F3 !important;
+	border-right: 2px solid #404040 !important;
+	border-bottom: 2px solid black !important;
+	box-shadow: none !important;
+margin-left:2px !important;
+border-radius:5px;
+	color: #3c3c3c !important;
+font-weight:bold !important;
+}
+ 
+.pmt {
+	position: relative;
+	width: 560px;
+	height: 750px;
+	background-color: rgb(60, 60, 60);
+	background-image: url(http://i59.tinypic.com/30uyaon.jpg);
+	background-repeat: repeat;
+	font-family: arial;
+	padding: 15px;
+	box-shadow: inset 0px 0px 9px 2px rgba(0,0,0,0.8);
+	border-radius: 5px;
+}
+ 
+ 
+/**/
+/* defaults */
+/**/
+.sky-tabs,
+.sky-tabs * {
+            	margin: 0;
+            	padding: 0;
+            	outline: none;
+            	border: 0;
+            	background: none;
+}
+.sky-tabs {
+            	position: relative;
+            	font-family: Arial;
+            	font-size: 0;
+            	text-align: left;
+}
+.sky-tabs > input {
+            	position: absolute;
+            	display: none;
+}
+.sky-tabs > label {
+            	position: relative;
+            	z-index: 1;
+            	display: inline-block;
+            	box-sizing: border-box;
+            	-moz-box-sizing: border-box;
+            	padding: 1px;
+            	padding-top: 0;
+            	padding-left: 0;
+            	font-size: 9px;
+            	line-height: 9px;
+            	cursor: pointer;
+}
+.sky-tabs > label.inverse {
+            	float: right;
+            	padding-right: 0;
+            	padding-left: 1px;
+}
+.sky-tabs > label.disabled {
+            	cursor: default;
+}
+.sky-tabs > label span {
+	display: block;
+	padding-top: 2px;
+	text-transform: uppercase;
+	text-align: center;
+}
+.sky-tabs > label span span {
+            	background: transparent;
+            	transition: background 0.4s, color 0.4s;
+            	-o-transition: background 0.4s, color 0.4s;
+            	-ms-transition: background 0.4s, color 0.4s;
+            	-moz-transition: background 0.4s, color 0.4s;
+            	-webkit-transition: background 0.4s, color 0.4s;
+}
+.sky-tabs > label.disabled span span {
+            	background: transparent;
+            	color: inherit;
+}
+.sky-tabs > input:checked + label {
+            	cursor: default;
+	background: #C9C9C9 radial-gradient(55% 100%,#E6E6E6,#CDCDCD,#A6A6A6) !important;
+	border-left: 2px solid #404040 !important;
+	border-top: 2px solid black !important;
+	border-right: 2px solid #7D7D7D !important;
+	border-bottom: 2px solid #F3F3F3 !important;
+	box-shadow: none !important;
+}
+.sky-tabs > .switcher {
+            	display: none;
+}
+.sky-tabs > .switcher a {
+            	display: block;
+            	margin: 0 -20px;
+            	padding: 0 20px;
+            	text-decoration: none;
+            	color: inherit;
+}
+.sky-tabs > ul {
+            	list-style: none;
+            	position: relative;
+            	display: block;
+            	font-size: 13px;
+}
+.sky-tabs > ul > li {
+            	position: absolute;
+            	top: 0;
+            	left: 0;
+            	width: 100%;
+            	overflow: auto;
+            	padding: 20px 15px 15px;
+	background: #C9C9C9 radial-gradient(55% 100%,#E6E6E6,#CDCDCD,#A6A6A6);
+	height: 710px;
+	border-radius: 5px;
+	border-left: 2px solid #7D7D7D;
+	border-top: 2px solid #F3F3F3;
+	border-right: 2px solid #404040;
+	border-bottom: 2px solid black;
+            	box-sizing: border-box;
+            	-moz-box-sizing: border-box;
+            	opacity: 0;
+            	-o-transform-origin: 0% 0%;
+            	-ms-transform-origin: 0% 0%;
+            	-moz-transform-origin: 0% 0%;
+            	-webkit-transform-origin: 0% 0%;
+            	-o-transition: opacity 0.8s, -o-transform 0.8s;  	
+            	-ms-transition: opacity 0.8s, -ms-transform 0.8s;           	
+            	-moz-transition: opacity 0.8s, -moz-transform 0.8s;      	
+            	-webkit-transition: opacity 0.8s, -webkit-transform 0.8s;
+}
+.sky-tabs > .sky-tab-content-1:checked ~ ul > .sky-tab-content-1,
+.sky-tabs > .sky-tab-content-2:checked ~ ul > .sky-tab-content-2,
+.sky-tabs > .sky-tab-content-3:checked ~ ul > .sky-tab-content-3,
+.sky-tabs > .sky-tab-content-4:checked ~ ul > .sky-tab-content-4,
+.sky-tabs > .sky-tab-content-5:checked ~ ul > .sky-tab-content-5,
+.sky-tabs > .sky-tab-content-6:checked ~ ul > .sky-tab-content-6,
+.sky-tabs > .sky-tab-content-7:checked ~ ul > .sky-tab-content-7,
+.sky-tabs > .sky-tab-content-8:checked ~ ul > .sky-tab-content-8,
+.sky-tabs > .sky-tab-content-9:checked ~ ul > .sky-tab-content-9, .sky-tabs > .sky-tab-content-10:checked ~ ul > .sky-tab-content-10,
+.sky-tabs > .sky-tab-content-11:checked ~ ul > .sky-tab-content-11,
+.sky-tabs > .sky-tab-content-12:checked ~ ul > .sky-tab-content-12,
+.sky-tabs > .sky-tab-content-13:checked ~ ul > .sky-tab-content-13,
+.sky-tabs > .sky-tab-content-14:checked ~ ul > .sky-tab-content-14,
+.sky-tabs > .sky-tab-content-15:checked ~ ul > .sky-tab-content-15,
+.sky-tabs > .sky-tab-content-16:checked ~ ul > .sky-tab-content-16,
+.sky-tabs > .sky-tab-content-17:checked ~ ul > .sky-tab-content-17,
+.sky-tabs > .sky-tab-content-18:checked ~ ul > .sky-tab-content-18,
+.sky-tabs > .sky-tab-content-19:checked ~ ul > .sky-tab-content-19,
+.sky-tabs > .sky-tab-content-20:checked ~ ul > .sky-tab-content-20,
+.sky-tabs > .sky-tab-content-21:checked ~ ul > .sky-tab-content-21,
+.sky-tabs > .sky-tab-content-22:checked ~ ul > .sky-tab-content-22,
+.sky-tabs > .sky-tab-content-23:checked ~ ul > .sky-tab-content-23,
+.sky-tabs > .sky-tab-content-24:checked ~ ul > .sky-tab-content-24,
+.sky-tabs > .sky-tab-content-25:checked ~ ul > .sky-tab-content-25 {
+            	position: relative;
+            	z-index: 1;
+            	opacity: 1;
+height:750px;
+}
+ 
+ 
+/**/
+/* positions */
+/**/
+.sky-tabs-pos-left > label {
+	display: block;
+	width: 103px;
+	padding: 2px;
+	height: 25px;
+	float: left;
+	clear: left;
+	margin-right: 0;
+	background: #C9C9C9 radial-gradient(55% 100%,#E6E6E6,#CDCDCD,#A6A6A6) !important;
+	border-left: 2px solid #7D7D7D !important;
+	border-top: 2px solid #F3F3F3 !important;
+	border-right: 2px solid #404040 !important;
+	border-bottom: 2px solid black !important;
+	box-shadow: none !important;
+margin-top: 2px;
+	border-radius: 5px;
+}
+.sky-tabs-pos-left > ul {
+            	margin-left: 120px;
+height: 740px;
+}
+ 
+/**/
+/* animations */
+/**/
+.sky-tabs-anim-flip > ul {
+            	perspective: 2000px;
+            	-o-perspective: 2000px;
+            	-ms-perspective: 2000px;
+            	-moz-perspective: 2000px;
+            	-webkit-perspective: 2000px;
+            	perspective-origin: 50% 50%;
+            	-o-perspective-origin: 50% 50%;
+            	-ms-perspective-origin: 50% 50%;
+            	-moz-perspective-origin: 50% 50%;
+            	-webkit-perspective-origin: 50% 50%;
+}
+.sky-tabs-anim-flip > ul > li {
+            	-o-transform: rotateX(-90deg);
+            	-ms-transform: rotateX(-90deg);
+            	-moz-transform: rotateX(-90deg);
+            	-webkit-transform: rotateX(-90deg);
+}
+.sky-tabs-anim-flip.sky-tabs-pos-left > ul > li {
+            	-o-transform: rotateY(90deg);
+            	-ms-transform: rotateY(90deg);
+            	-moz-transform: rotateY(90deg);
+            	-webkit-transform: rotateY(90deg);    	
+}
+.sky-tabs-anim-flip > .sky-tab-content-1:checked ~ ul > .sky-tab-content-1,
+.sky-tabs-anim-flip > .sky-tab-content-2:checked ~ ul > .sky-tab-content-2,
+.sky-tabs-anim-flip > .sky-tab-content-3:checked ~ ul > .sky-tab-content-3,
+.sky-tabs-anim-flip > .sky-tab-content-4:checked ~ ul > .sky-tab-content-4,
+.sky-tabs-anim-flip > .sky-tab-content-5:checked ~ ul > .sky-tab-content-5,
+.sky-tabs-anim-flip > .sky-tab-content-6:checked ~ ul > .sky-tab-content-6,
+.sky-tabs-anim-flip > .sky-tab-content-7:checked ~ ul > .sky-tab-content-7,
+.sky-tabs-anim-flip > .sky-tab-content-8:checked ~ ul > .sky-tab-content-8,
+.sky-tabs-anim-flip > .sky-tab-content-9:checked ~ ul > .sky-tab-content-9,
+.sky-tabs-anim-flip > .sky-tab-content-10:checked ~ ul > .sky-tab-content-10,
+.sky-tabs-anim-flip > .sky-tab-content-11:checked ~ ul > .sky-tab-content-11,
+.sky-tabs-anim-flip > .sky-tab-content-12:checked ~ ul > .sky-tab-content-12,
+.sky-tabs-anim-flip > .sky-tab-content-13:checked ~ ul > .sky-tab-content-13,
+.sky-tabs-anim-flip > .sky-tab-content-14:checked ~ ul > .sky-tab-content-14,
+.sky-tabs-anim-flip > .sky-tab-content-15:checked ~ ul > .sky-tab-content-15,
+.sky-tabs-anim-flip > .sky-tab-content-16:checked ~ ul > .sky-tab-content-16,
+.sky-tabs-anim-flip > .sky-tab-content-17:checked ~ ul > .sky-tab-content-17,
+.sky-tabs-anim-flip > .sky-tab-content-18:checked ~ ul > .sky-tab-content-18,
+.sky-tabs-anim-flip > .sky-tab-content-19:checked ~ ul > .sky-tab-content-19,
+.sky-tabs-anim-flip > .sky-tab-content-20:checked ~ ul > .sky-tab-content-20,
+.sky-tabs-anim-flip > .sky-tab-content-21:checked ~ ul > .sky-tab-content-21,
+.sky-tabs-anim-flip > .sky-tab-content-22:checked ~ ul > .sky-tab-content-22,
+.sky-tabs-anim-flip > .sky-tab-content-23:checked ~ ul > .sky-tab-content-23,
+.sky-tabs-anim-flip > .sky-tab-content-24:checked ~ ul > .sky-tab-content-24,
+.sky-tabs-anim-flip > .sky-tab-content-25:checked ~ ul > .sky-tab-content-25{
+            	-o-transform: rotateX(0deg);
+            	-ms-transform: rotateX(0deg);
+            	-moz-transform: rotateX(0deg);
+            	-webkit-transform: rotateX(0deg);
+            	-o-transition-delay: 0.2s;
+            	-ms-transition-delay: 0.2s;
+            	-moz-transition-delay: 0.2s;
+            	-webkit-transition-delay: 0.2s;
+}
+ 
+ 
+/**/
+/* typography */
+/**/
+.sky-tabs .typography h1,
+.sky-tabs .typography h2,
+.sky-tabs .typography h3,
+.sky-tabs .typography h4,
+.sky-tabs .typography h5,
+.sky-tabs .typography h6 {
+padding: 15px;
+	font-family: multima !important;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgb(235, 235, 235), -1px -1px 0px rgba(60, 60, 60, 0.72);
+	color: #BABABA;
+	letter-spacing: -2px;
+text-transform: none;
+	font-weight: normal;
+	font-size: 44px;
+	padding-left: 20px;
+}
+ 
+.sky-tabs .typography p {
+	margin: 15px 0 0 0;
+	padding: 0;
+	line-height: 12px;
+	text-align: justify;
+	font-family: arial;
+	font-size: 11px;
+}
+.sky-tabs .typography ul,
+.sky-tabs .typography ol {
+            	list-style: none;
+            	margin: 20px 0 0 0;
+            	padding: 0;
+            	line-height: 20px;
+}
+.sky-tabs .typography li {
+            	position: relative;
+            	margin-top: 5px;
+            	padding-left: 20px;
+}
+.sky-tabs .typography li ul,
+.sky-tabs .typography li ol {
+            	margin-top: 5px;
+}
+.sky-tabs .typography ul li:before {
+            	content: '';
+            	position: absolute;
+            	top: 8px;
+            	left: 0;
+            	width: 4px;
+            	height: 4px;
+            	background: #333;
+}
+.sky-tabs .typography ol {
+            	counter-reset: list1;
+}
+.sky-tabs .typography ol > li:before {
+            	counter-increment:list1;
+            	content: counter(list1)'.';
+            	position: absolute;
+            	top: 0;
+            	left: 0;
+            	color: #333;
+}
+.sky-tabs .typography .pic {
+            	padding: 4px;
+            	border: 1px dotted #ccc;
+}
+.sky-tabs .typography .pic img {
+            	display: block;
+}
+.sky-tabs .typography .pic-right {
+            	float: right;
+            	margin: 0 0 10px 20px;
+}
+.sky-tabs .typography h1:first-child,
+.sky-tabs .typography h2:first-child,
+.sky-tabs .typography h3:first-child,
+.sky-tabs .typography h4:first-child,
+.sky-tabs .typography h5:first-child,
+.sky-tabs .typography h6:first-child,
+.sky-tabs .typography p:first-child {
+            	margin-top: 0;
+}
+.sky-tabs .typography .text-center {
+            	text-align: center;
+}
+.sky-tabs .typography .text-right {
+            	text-align: right;
+}
+
+
